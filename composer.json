@@ -1,15 +1,15 @@
 {
     "name": "alexshonia/php-mvc-core",
-    "autoload": {
-        "psr-4": {
-            "alexshonia\\phpmvc\\": "src/"
-        }
-    },
     "authors": [
         {
             "name": "alex",
             "email": "alex.shonia123@gmail.com"
         }
     ],
-    "require": {}
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "alexshonia\\phpmvc\\": "src/"
+        }
+    }
 }
