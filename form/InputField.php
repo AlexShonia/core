@@ -1,8 +1,8 @@
 <?php
 
-namespace app\core\form;
+namespace alexshonia\phpmvc\form;
 
-use app\core\Model;
+use alexshonia\phpmvc\Model;
 
 
 class InputField extends BaseField

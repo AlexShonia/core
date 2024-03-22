@@ -1,6 +1,7 @@
 <?php
 
-namespace app\core\exception;
+namespace alexshonia\phpmvc\exception;
+
 class NotFoundException extends \Exception
 {
     protected $message = 'Page not found';

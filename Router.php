@@ -1,12 +1,12 @@
 <?php
 
-namespace app\core;
+namespace alexshonia\phpmvc;
 
 /**
- * @package app\core
+ * @package alexshonia\phpmvc
  */
 
-use app\core\exception\NotFoundException;
+use alexshonia\phpmvc\exception\NotFoundException;
 
 class Router
 {
@@ -41,7 +41,7 @@ class Router
             return Application::$app->view->renderView($callback);
         }
         if (is_array($callback)) {
-            /** @var \app\core\Controller $controller */
+            /** @var \alexshonia\phpmvc\Controller $controller */
             $controller = new $callback[0]();
             Application::$app->controller = $controller;
             $controller->action = $callback[1];

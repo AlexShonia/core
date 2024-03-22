@@ -1,6 +1,7 @@
 <?php
-namespace app\core\form;
-use app\core\Model;
+namespace alexshonia\phpmvc\form;
+
+use alexshonia\phpmvc\Model;
 
 abstract class BaseField
 {

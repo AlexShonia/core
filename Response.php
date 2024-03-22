@@ -1,10 +1,10 @@
 <?php
 
-namespace app\core;
+namespace alexshonia\phpmvc;
 
 /**
  * @author alex <email>
- * @package app\core
+ * @package alexshonia\phpmvc
  */
 class Response
 {
@@ -12,9 +12,9 @@ class Response
     {
         http_response_code($code);
     }
-    
+
     public function redirect(string $url)
     {
-        header('Location: '. $url);
+        header('Location: ' . $url);
     }
 }

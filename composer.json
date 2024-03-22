@@ -2,7 +2,7 @@
     "name": "alexshonia/php-mvc-core",
     "autoload": {
         "psr-4": {
-            "Alexshonia\\PhpMvcCore\\": "src/"
+            "alexshonia\\phpmvc\\": "src/"
         }
     },
     "authors": [

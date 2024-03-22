@@ -1,11 +1,11 @@
 <?php
 
-namespace app\core;
+namespace alexshonia\phpmvc;
 
-use app\core\db\Database;
-use app\core\db\DbModel;
+use alexshonia\phpmvc\db\Database;
+use alexshonia\phpmvc\db\DbModel;
 
-// @package app\core
+// @package alexshonia\phpmvc
 
 class Application
 {

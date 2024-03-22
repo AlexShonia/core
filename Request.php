@@ -1,6 +1,6 @@
 <?php
 
-namespace app\core;
+namespace alexshonia\phpmvc;
 
 class Request
 {
@@ -20,17 +20,17 @@ class Request
     {
         return strtolower($_SERVER['REQUEST_METHOD']);
     }
-    
+
     public function isGet()
     {
         return $this->method() === 'get';
     }
-    
+
     public function isPost()
     {
         return $this->method() === 'post';
     }
-    
+
     public function getBody()
     {
         $body = [];

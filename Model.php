@@ -1,6 +1,6 @@
 <?php
 
-namespace app\core;
+namespace alexshonia\phpmvc;
 
 abstract class Model
 {

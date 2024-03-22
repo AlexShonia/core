@@ -1,8 +1,8 @@
 <?php
 
-namespace app\core;
+namespace alexshonia\phpmvc;
 
-use app\core\middlewares\BaseMiddleware;
+use alexshonia\phpmvc\middlewares\BaseMiddleware;
 
 
 class Controller
@@ -10,7 +10,7 @@ class Controller
     public string $layout = 'main';
     public string $action = '';
     /**
-     * @var \app\core\middlewares\BaseMiddleware[]
+     * @var \alexshonia\phpmvc\middlewares\BaseMiddleware[]
      */
     protected array $middlewares = [];
     public function setLayout($layout)

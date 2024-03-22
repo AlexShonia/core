@@ -1,7 +1,8 @@
 <?php
 
-namespace app\core;
-class View 
+namespace alexshonia\phpmvc;
+
+class View
 {
     public string $title = '';
     public function renderView($view, $params = [])

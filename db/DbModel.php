@@ -1,8 +1,10 @@
 <?php
 
-namespace app\core\db;
-use app\core\Model;
-use app\core\Application;
+namespace alexshonia\phpmvc\db;
+
+use alexshonia\phpmvc\Model;
+use alexshonia\phpmvc\Application;
+
 abstract class DbModel extends Model
 {
     abstract static public function tableName(): string;

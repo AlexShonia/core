@@ -1,8 +1,9 @@
 <?php
 
 
-namespace app\core\db;
-use app\core\Application;
+namespace alexshonia\phpmvc\db;
+
+use alexshonia\phpmvc\Application;
 
 class Database
 {
@@ -36,7 +37,7 @@ class Database
             $this->log("Applied migration $migration");
             $newMigrations[] = $migration;
         }
-        if (!empty($newMigrations)) {
+        if (!empty ($newMigrations)) {
             $this->saveMigrations($newMigrations);
         } else {
             $this->log("All migrations are applied");
@@ -69,13 +70,14 @@ class Database
 
         $statement->execute();
     }
-    public function prepare($sql) {
+    public function prepare($sql)
+    {
         return $this->pdo->prepare($sql);
-    } 
+    }
 
     public function log($message)
     {
-        echo '[' . date('Y-m-d H:i:s') .'] - ' . $message . PHP_EOL;
+        echo '[' . date('Y-m-d H:i:s') . '] - ' . $message . PHP_EOL;
     }
 
 }
