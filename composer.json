@@ -1,0 +1,15 @@
+{
+    "name": "alexshonia/php-mvc-core",
+    "autoload": {
+        "psr-4": {
+            "Alexshonia\\PhpMvcCore\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "alex",
+            "email": "alex.shonia123@gmail.com"
+        }
+    ],
+    "require": {}
+}
